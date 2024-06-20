@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">H_Atv19do04</string>
+    <string-array name="dias">
+        <item>Segunda</item>
+        <item>Terça</item>
+    </string-array>
+</resources>
