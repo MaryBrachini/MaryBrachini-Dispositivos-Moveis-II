@@ -55,5 +55,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.689" />
 
+    <ListView
+        android:layout_width="409dp"
+        android:layout_height="210dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="520dp"
+
+
+        />
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

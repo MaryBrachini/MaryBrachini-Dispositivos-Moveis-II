@@ -1,10 +1,10 @@
 package com.example.a19_04;
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.app.ListActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends ListActivity {
 
     String[] Disciplinas = {
             "Disciplina 1", "Disciplina 2", "Disciplina 3",
