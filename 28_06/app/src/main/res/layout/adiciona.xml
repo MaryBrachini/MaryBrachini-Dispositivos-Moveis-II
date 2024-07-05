@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:text="Nome: " />
+
+        <EditText
+            android:id="@+id/campoNome"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/campoId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID: "/>
+
+        <EditText
+            android:id="@+id/campoDia"
+            android:layout_width="338dp"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txtDia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dia: " />
+
+        <Spinner
+            android:id="@+id/dias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/dias" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txtMaracutaia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <Button
+            android:id="@+id/botao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="salvaDados"
+            android:text="SALVAR E VOLTAR" />
+
+
+    </TableRow>
+
+</TableLayout>

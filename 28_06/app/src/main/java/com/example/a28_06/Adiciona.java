@@ -1,12 +1,13 @@
 package com.example.a28_06;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 
-public class EdicaoInfos extends Activity{
+public class Adiciona extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.edicao);
+        setContentView(R.layout.adiciona);
     }
+
 }

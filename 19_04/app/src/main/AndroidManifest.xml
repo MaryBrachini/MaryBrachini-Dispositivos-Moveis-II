@@ -16,8 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.a28_06.Adicionar"/>
-        <activity android:name="com.example.a28_06.EdicaoInfos"/>
+        <activity android:name=".Adiciona"/>
+        <activity android:name=".Meses"/>
     </application>
 
 </manifest>
