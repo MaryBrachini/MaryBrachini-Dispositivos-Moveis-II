@@ -116,7 +116,7 @@ public class MainActivity extends Activity {
                 }
             };
 
-            ListView lista = (ListView)findViewById(R.id.lista);
+            ListView lista = (ListView)findViewById(R.id.listaDisciplinas);
             lista.setAdapter(adaptadorDisciplina);
         } else {
             adaptadorDisciplina.novosDados(disciplinas);
