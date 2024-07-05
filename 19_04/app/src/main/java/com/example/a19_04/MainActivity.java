@@ -1,4 +1,4 @@
-package com.example.trabalhomtereza;
+package com.example.a19_04;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -15,10 +15,10 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ArrayAdapter<String> listaDisciplinas = new ArrayAdapter<>(
+     /*   ArrayAdapter<String> listaDisciplinas = new ArrayAdapter<>(
                 this, android.R.layout.simple_list_item_1, disciplinas
         );
 
-        setListAdapter(listaDisciplinas);
+        setListAdapter(listaDisciplinas);*/
     }
 }
