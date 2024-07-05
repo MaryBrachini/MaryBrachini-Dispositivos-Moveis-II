@@ -50,9 +50,7 @@ public class Meses extends Activity {
                 Toast.makeText(getApplicationContext(), itemSelecionado, Toast.LENGTH_SHORT).show();
             }
         });
-
     }
-
 }
 class voltar implements View.OnClickListener {
 

@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-
 public class Adiciona extends Activity {
 
     private EditText edtNome;
@@ -56,11 +55,7 @@ public class Adiciona extends Activity {
                     edtNome.getText().toString(),
                     edtDia.getText().toString());
         }
-
         bd.fechar();
         finish();
     }
-
-
-
 }

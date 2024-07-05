@@ -43,7 +43,7 @@ public abstract class DisciplinaAdapter extends BaseAdapter {
         ((TextView)(v.findViewById(R.id.txtNome)))
                 .setText(disciplinas.get(position).nome);
 
-        //Modelo usando classe anônima
+
         ((ImageButton)(v.findViewById(R.id.btnEditar)))
                 .setOnClickListener(new View.OnClickListener() {
                                         @Override
@@ -53,7 +53,7 @@ public abstract class DisciplinaAdapter extends BaseAdapter {
                                     }
                 );
 
-        //Modelo usando classe interna
+
         ImageButton btnExcluir;
         btnExcluir = (ImageButton)(v.findViewById(R.id.btnExcluir));
         HandlerBtnExcluir tratadorBotao = new HandlerBtnExcluir();
