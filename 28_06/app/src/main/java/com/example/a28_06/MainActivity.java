@@ -1,23 +1,18 @@
 package com.example.a28_06;
 
-
 import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends Activity {
-
-
 
     private BancoDados bd;
     private List<Disciplina> disciplinas = new ArrayList<Disciplina>();
@@ -37,7 +32,7 @@ public class MainActivity extends Activity {
         bt1 = (Button)findViewById(R.id.btnAdd);
         bt1.setOnClickListener(t1);
 
-        //Botao para Abrir os meses
+
         abreMeses t2 = new abreMeses();
         t2.setSaida(this);
 
@@ -64,7 +59,6 @@ public class MainActivity extends Activity {
         }
     }
 
-    //classe para abrir a interface de ver Meses
     class abreMeses implements View.OnClickListener {
 
         private MainActivity saida;
@@ -150,6 +144,4 @@ public class MainActivity extends Activity {
             }
         }
     }
-
-
 }
